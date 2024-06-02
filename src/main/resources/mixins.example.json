@@ -1,8 +1,0 @@
-{
-    "compatibilityLevel": "JAVA_8",
-    "package": "xyz.arkclient.mixin",
-    "refmap": "refmap.arkclient.json",
-    "mixins": [],
-    "client": [],
-    "server": []
-}
