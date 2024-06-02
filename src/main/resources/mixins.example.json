@@ -1,8 +1,8 @@
 {
     "compatibilityLevel": "JAVA_8",
-    "package": "com.yourname.modid.mixin",
-    "refmap": "refmap.example.json",
+    "package": "xyz.arkclient.mixin",
+    "refmap": "refmap.arkclient.json",
     "mixins": [],
-    "client": ["MixinMinecraft"],
+    "client": [],
     "server": []
 }
