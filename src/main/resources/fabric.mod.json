@@ -3,13 +3,13 @@
 	"id": "ark-client",
 	"version": "${version}",
 	"name": "Ark Client",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "i dont want to write a description",
 	"authors": [
-		"Me!"
+		"KotlinL0vers"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/KotlinL0vers/Ark"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/ark-client/icon.png",
@@ -17,13 +17,7 @@
 	"entrypoints": {
 		"main": [
 			{
-				"value": "we.kotlinl0vers.ArkClient",
-				"adapter": "kotlin"
-			}
-		],
-		"client": [
-			{
-				"value": "we.kotlinl0vers.ArkClientClient",
+				"value": "we.kotlinl0vers.Rukiddingme",
 				"adapter": "kotlin"
 			}
 		]

@@ -3,7 +3,7 @@
 	"package": "we.kotlinl0vers.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"MixinMinecraftClient"
 	],
 	"injectors": {
 		"defaultRequire": 1
