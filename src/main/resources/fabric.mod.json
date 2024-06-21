@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "ark-client",
+	"version": "${version}",
+	"name": "Ark Client",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ark-client/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "we.kotlinl0vers.ArkClient",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "we.kotlinl0vers.ArkClientClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"ark-client.mixins.json",
+		{
+			"config": "ark-client.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
