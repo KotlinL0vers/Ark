@@ -5,10 +5,14 @@ import net.minecraft.client.MinecraftClient
 import net.minecraft.client.network.ClientPlayNetworkHandler
 import net.minecraft.client.network.ServerInfo
 import net.minecraft.client.resource.language.I18n
+import we.kotlinl0vers.module.ModuleManager
+import we.kotlinl0vers.module.elements.HUD
 
 object ArkClient {
     val version = "0.0.1"
     fun init() {
+        ModuleManager.addModules()
+        ModuleManager.getModule(HUD::class.java)!!.toggle()
     }
 
     fun getWindowTitle() : String {
